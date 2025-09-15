@@ -42,7 +42,7 @@ def main():
 
 
     except requests.exceptions.ConnectionError:
-        print("HTTPSConnectionPool(host='hackattic.com', port=443): Max retries exceeded with url: /challenges/reading_qr/problem?access_token=a36030441954f10d")
+        print("HTTPSConnectionPool(host='hackattic.com', port=443): Max retries exceeded with url: /challenges/")
     
 
 if __name__ == "__main__":
